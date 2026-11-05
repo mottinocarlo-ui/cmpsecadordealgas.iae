@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Secador de Algas CMP: sistema automático que protege el secadero de algas de la lluvia en Camarones, Chubut.">
+  <title> Secador de Algas CMP | Secadero protegido, algas a salvo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a class="marca" href="#inicio">
+      <img src="logocmp.png" alt="Logo CMP" width="48">
+      Secador de Algas CMP
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#problema">El problema</a></li>
+        <li><a href="#solucion">Cómo funciona</a></li>
+        <li><a href="#producto">Producto</a></li>
+        <li><a href="#precio">Precio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <img src="logocmp.png" alt="Escudo de AlgaGuard con techo, gota y ondas" width="220">
+      <div>
+        <h1>Que la lluvia no arruine tu cosecha de algas</h1>
+        <p>El secador de algas CMP vigila tu secadero las 24 horas y cierra el techo solo cuando cae la primera gota.</p>
+        <a class="boton" href="#contacto">Pedí el tuyo</a>
+      </div>
+    </section>
+
+    <section id="problema">
+      <h2>El problema en Camarones</h2>
+      <p>En la costa de Chubut las algas pardas se secan al aire libre. Si llueve o la humedad del mar es excesiva, el producto ya recolectado se pudre y pierde su valor comercial.</p>
+      <div class="tarjetas">
+        <article>
+          <h3>Lluvia repentina</h3>
+          <p>El clima patagónico cambia rápido y las primeras gotas pueden llegar sin aviso.</p>
+        </article>
+        <article>
+          <h3>Humedad costera</h3>
+          <p>Aunque no llueva, el aire cargado de mar frena el secado y arruina la calidad.</p>
+        </article>
+        <article>
+          <h3>Lonas a mano</h3>
+          <p>Hoy los operarios tienen que cubrir todo apenas empieza a llover, de día o de noche.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="solucion" class="claro">
+      <h2>Cómo funciona</h2>
+      <div class="tarjetas">
+        <article>
+          <h3>1. Detecta</h3>
+          <p>Un sensor de lluvia reconoce el contacto con agua líquida sobre el secadero.</p>
+        </article>
+        <article>
+          <h3>2. Mide</h3>
+          <p>Un sensor de temperatura controla el ambiente y detecta cambios bruscos.</p>
+        </article>
+        <article>
+          <h3>3. Protege</h3>
+          <p>Un servo despliega el techo protector automáticamente, sin que nadie intervenga.</p>
+        </article>
+        <article>
+          <h3>4. Avisa</h3>
+          <p>Una alarma sonora y una luz alertan al operador, y la consola muestra todos los datos.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="producto">
+      <h2>El producto</h2>
+      <figure>
+        <img src="logocmp.png" alt="Logo CMP" width="140">
+        <figcaption>El Secador de Algas CMP, tu guardián del secadero</figcaption>
+      </figure>
+      <p>Es un dispositivo autónomo basado en Arduino, pensado para el clima patagónico. La electrónica va dentro de un gabinete protector y solo los sensores quedan expuestos.</p>
+      <ul>
+        <li>✓ Sensor de lluvia FC-37 / YL-83</li>
+        <li>✓ Sensor de temperatura</li>
+        <li>✓ Techo protector accionado por servomotor</li>
+        <li>✓ Alarma sonora y luminosa para el operador</li>
+        <li>✓ Monitor serial con alertas claras en la computadora</li>
+      </ul>
+    </section>
+
+    <section id="precio" class="claro">
+      <h2>Precio Kit CMP</h2>
+      <article>
+        <h3>Kit AlgaGuard CMP</h3>
+        <p class="monto">$ 99.900</p>
+        <p>Precio de lanzamiento. Incluye sensores, servo, alarma, gabinete protector y asesoramiento de instalación.</p>
+        <a class="boton" href="#contacto">Quiero comprarlo</a>
+      </article>
+    </section>
+
+    <section id="precio" class="claro">
+      <h2>Precio Kit Premium CMP</h2>
+      <article>
+        <h3>Kit Secador de Algas Premium CMP</h3>
+        <p class="monto">$ 124.900</p>
+        <p>Precio de lanzamiento. Incluye sensores, servo, alarma, gabinete protector, asesoramiento de instalación y una suscripción en la que por mail le llegarán nuevas novedades, descuentos exclusivos y más.</p>
+        <a class="boton" href="#contacto">Quiero comprarlo</a>
+      </article>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <address>
+       
+        Camarones, Chubut, Argentina<br>
+        Email: cmp@gmail.com
+      </address>
+      <form action="mailto:algaguard@ejemplo.com" method="post" enctype="text/plain">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="correo">Email</label>
+        <input type="email" id="correo" name="correo" required>
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        <button class="boton" type="submit">Enviar consulta</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    
+    <p>&copy; 2026  CMP | Carlo Mottino y Milo Pires | 3° año | Instituto Austral de Enseñanza</p>
+  <img src="logoiae.png" alt="Logo IAE" width="100">
+  </footer>
+</body>
+</html>
